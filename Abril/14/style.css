@@ -1,0 +1,60 @@
+fieldset {
+    background-image: repeating-linear-gradient(
+        90deg,
+        #000000 0,
+        #000000 10px,
+        #ffffff 10px,
+        #ccc 20px
+    );
+    background-size: 20px 20px;
+}
+
+#botao_enviar{
+    background-color: green;
+}
+
+#botao_limpar{
+    background-color: red;
+}
+
+#div-display{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-com-outline {
+    color: black;
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.texto-com-outline2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        -1px -1px 0 rgb(0, 0, 0),  
+         1px -1px 0 rgb(0, 0, 0),
+        -1px  1px 0 rgb(0, 0, 0),
+         1px  1px 0 rgb(0, 0, 0);
+}
+
+.bg-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(fundo_da_pagina.webp);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+#margem{
+    margin-bottom: 20px;
+}

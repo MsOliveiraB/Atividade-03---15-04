@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array de Sabores - Atividade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="div-display">
+    
+    <div class="bg-blur"></div>
+
+     <h1 class="texto-com-outline">Forno Alvinegro | Pizzaria</h1>
+
+    <form id="id_formulario">
+
+            <div style="margin-bottom: -2px;">
+
+            <label for="nome" class="texto-com-outline">Nome:
+                <input 
+                    type="text"
+                    id="id_nome"
+                    placeholder="Informe seu nome"
+                    required
+                >
+            </label>
+
+            </div>
+
+            <br>
+
+            <fieldset id="margem">
+                <legend class="texto-com-outline">Escolha os ingredientes da sua Pizza:</legend>
+
+                <label for="Queijo" class="texto-com-outline2">
+                    <input 
+                        type="checkbox"
+                        id="queijo"
+                        value="Queijo"
+                        >Queijo
+                </label>
+
+                <label for="Calabresa" class="texto-com-outline2">
+                    <input 
+                        type="checkbox"
+                        id="calabresa"
+                        value="Calabresa"
+                        >Calabresa
+                </label>
+
+                <label for="Tomate" class="texto-com-outline2">
+                    <input 
+                        type="checkbox"
+                        id="tomate"
+                        value="Tomate"
+                        >Tomate
+                </label>
+
+                <label for="Cebola" class="texto-com-outline2">
+                    <input 
+                        type="checkbox"
+                        id="cebola"
+                        value="Cebola"
+                        >Cebola
+                </label>
+
+            </fieldset>
+
+            <div id="margem">
+
+            <fieldset>
+                <legend id="tamanhopizza" class="texto-com-outline">Escolha o tamanho da pizza:</legend>
+                <label for="pequena" class="texto-com-outline2">
+                    <input 
+                        type="radio"
+                        name="tamanho"
+                        value="Pequena"
+                        id="pizzapequena"
+                    >Pequena (4 fatias)
+                </label>
+
+                <label for="media" class="texto-com-outline2">
+                    <input 
+                        type="radio"
+                        name="tamanho"
+                        value="Média"
+                        id="pizzamedia"
+                    >Média (6 fatias)
+                </label>
+
+                <label for="grande" class="texto-com-outline2">
+                    <input 
+                        type="radio"
+                        name="tamanho"
+                        value="Grande"
+                        id="pizzagrande"
+                    >Grande (8 fatias)
+                </label>
+
+                <label for="familia" class="texto-com-outline2">
+                    <input 
+                        type="radio"
+                        name="tamanho"
+                        value="Familia"
+                        id="pizzafamilia"
+                    >Família (12 fatias)
+                </label>
+
+            </fieldset>
+
+            </div>
+
+            <div style="margin-bottom: 6px;">
+
+            <label for="Tipo de Massa" class="texto-com-outline">Escolha o tipo de massa: <br>
+                <select name="massa">
+                    <option value="" disabled selected>Selecione uma opção...</option>
+                    <option value="Napolitana">Napolitana</option>
+                    <option value="Romana">Romana</option>
+                    <option value="Siciliana">Siciliana</option>
+                    <option value="Toscana">Toscana</option>
+                    <option value="Pan">Pan</option>
+                    <option value="Novaiorquina">Nova-Iorquina</option>
+                    <option value="Paulistana">Paulistana</option>
+                </select>
+            </label>
+
+            </div>
+
+
+            <br>
+
+            <div style="margin-bottom: 2px;">
+            <label for="endereco" class="texto-com-outline">Endereço:
+                <input 
+                    type="text"
+                    id="endereco"
+                    placeholder="Informe seu endereço"
+                    required
+                >
+            </label>
+            </div>
+
+            <br>
+
+            
+            <button type="submit" id="botao_enviar">Enviar</button>
+            <button type="reset" id="botao_limpar">Limpar</button>
+
+            </div>
+        
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
