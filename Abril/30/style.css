@@ -1,0 +1,196 @@
+body{
+    background-image: url(fundo_da_pagina.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.centralizar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    gap: 10px;
+}
+
+.borda{
+    text-align: center;
+    background-image: linear-gradient(90deg, white, black);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-bottom: 9px ;
+}
+
+
+
+
+
+.centralizar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.borda2{
+    text-align: center;
+    background-image: linear-gradient(90deg, white, black);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-bottom: 9px ;
+    width: 800px
+}
+
+
+
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 80px;
+
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-style: black;
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+
+
+
+
+.subtitulo{
+    margin: 0;
+    font-size: 25px;
+
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-style: black;
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.subtitulo2{
+    margin: 0;
+    font-size: 30px;
+
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-style: black;
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+
+
+
+
+#numeros-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    .numero{
+        padding-left: 12px;
+        padding-right: 12px;
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: white;
+        border-style: 8px red solid;
+        background-color: black;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+#resultado{
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 530px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: black;
+    color: black;
+    border: white solid 4px;
+
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+#resultado2{
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 530px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, red, white, blue);
+    color: white;
+    border: black solid 4px;
+
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}

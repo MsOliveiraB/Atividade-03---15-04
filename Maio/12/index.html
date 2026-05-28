@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila do Castelão</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1>Fila do Castelão</h1>
+    
+    <form id="formulario">
+
+    <div class="centralizar">
+        <fieldset id="cadastro"><legend>Cadastro de Torcedores</legend>
+
+
+            <label for="nome">Nome:
+                <input
+                type="text"
+                placeholder="Informe seu nome"
+                id="nome"
+                required>
+            </label>
+
+            <label for="idade">Idade:
+                <input
+                type="number"
+                placeholder="Digite sua idade"
+                id="idade"
+                required>
+            </label>
+
+
+
+        <label for="escolhadetime" id="escolhatime">Ingresso pra qual time?</label>
+            <select name="time">
+                <option value="" disabled selected>Teu time do coração</option>
+                <option value="valor1">Ceará (só o filé)</option>
+                <option value="valor2">Fortaleza (mó paia)</option>
+                <option value="valor3">Outro</option>
+            </select>
+
+            
+        <br>
+
+        <div class="botoes">
+        <button type="submit" id="confirmar">Cadastrar Torcedor</button>
+        <button type="reset" id="deletar">Deletar Dados</button>
+        </div>
+
+        </fieldset>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
